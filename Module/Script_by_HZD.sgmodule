@@ -5,7 +5,5 @@
 [Rule]
 [Header Rewrite]
 [Script]
-# > 微信公众号
-WeChat.js = script-path=https://Choler.github.io/Surge/Script/WeChat.js,type=http-request,pattern=^https://mp\.weixin\.qq\.com/mp/getappmsgad
 [MITM]
-hostname = %APPEND% 8.8.8.8, -*.fileball.app:0,-*fileball.app:0
+hostname = %APPEND% 8.8.8.8, -api.revenuecat.com
